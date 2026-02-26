@@ -1,0 +1,9 @@
+                  precision    recall  f1-score   support
+
+      clear_face       0.99      0.99      0.99       400
+face_with_helmet       0.95      0.98      0.97       400
+  face_with_mask       0.97      0.94      0.96       400
+
+        accuracy                           0.97      1200
+       macro avg       0.97      0.97      0.97      1200
+    weighted avg       0.97      0.97      0.97      1200
