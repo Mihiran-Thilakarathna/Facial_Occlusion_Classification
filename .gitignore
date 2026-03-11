@@ -3,3 +3,4 @@ dataset/
 __pycache__/
 *.pyc
 helmet_mask_model.keras
+*.keras
