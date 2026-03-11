@@ -238,26 +238,3 @@ python predict.py
 
 ---
 
-## 📁 Saved Model Files
-
-| File | Description |
-|------|-------------|
-| `model_v2.keras` | Final MobileNetV2 Transfer Learning model (hosted on Google Drive) |
-| `classes_v2.json` | Class name mappings for V2 model |
-| `history_v2.pkl` | Training history for V2 model |
-| `helmet_mask_model.keras` | Implementation 1 baseline model (hosted on Google Drive) |
-
----
-
-## ⚠️ Known Limitations
-
-- The model is trained on static images and **cannot process live video feeds or real-time CCTV streams**
-- Performance may degrade under **extremely poor lighting conditions** or **extreme side-angle face captures**
-
----
-
-## 🔮 Future Improvements
-
-- Integrate real-time video processing using object detection models like **YOLO** for direct CCTV deployment
-- Collect and train on more diverse images taken under **low-light and night-time conditions** for 24/7 security environments
-- Implement **fine-tuning** of MobileNetV2 layers for further accuracy gains
